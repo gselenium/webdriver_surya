@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sell cars Suite]">
+  <test name="LocateDealer(failed)">
+    <classes>
+      <class name="com.gktech.sellcars.SearchCar">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.gktech.sellcars.SearchCar -->
+      <class name="com.gktech.sellcars.LocateDealer">
+        <methods>
+          <include name="locateDealer"/>
+        </methods>
+      </class> <!-- com.gktech.sellcars.LocateDealer -->
+    </classes>
+  </test> <!-- LocateDealer(failed) -->
+  <test name="SearchCar(failed)">
+    <classes>
+      <class name="com.gktech.sellcars.SearchCar">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="searchCar"/>
+        </methods>
+      </class> <!-- com.gktech.sellcars.SearchCar -->
+    </classes>
+  </test> <!-- SearchCar(failed) -->
+</suite> <!-- Failed suite [sell cars Suite] -->

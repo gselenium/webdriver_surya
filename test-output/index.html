@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">4 suites, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-used_cars_Suite">
+              <span class="suite-name border-failed">used cars Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-used_cars_Suite">
+                    <span>D:\OnlineTraining\SuryaHYD\Workspace\WebDriver_TestNG_DataDriven\usedcars.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-used_cars_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-used_cars_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-used_cars_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-used_cars_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-used_cars_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-used_cars_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,  2 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-used_cars_Suite" class="hide-methods failed suite-used_cars_Suite"> (hide)</a> <!-- hide-methods failed suite-used_cars_Suite -->
+                      <a href="#" panel-name="suite-used_cars_Suite" class="show-methods failed suite-used_cars_Suite"> (show)</a> <!-- show-methods failed suite-used_cars_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-used_cars_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-used_cars_Suite" title="com.gktech.usedcars.SearchUsedCars" hash-for-method="searchUsedCars">searchUsedCars</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-used_cars_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-used_cars_Suite" class="hide-methods skipped suite-used_cars_Suite"> (hide)</a> <!-- hide-methods skipped suite-used_cars_Suite -->
+                      <a href="#" panel-name="suite-used_cars_Suite" class="show-methods skipped suite-used_cars_Suite"> (show)</a> <!-- show-methods skipped suite-used_cars_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-used_cars_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-used_cars_Suite" title="com.gktech.usedcars.UsedCarValuation" hash-for-method="usedCarValuation(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123)">usedCarValuation(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-used_cars_Suite" title="com.gktech.usedcars.UsedCarValuation" hash-for-method="usedCarValuation(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123)">usedCarValuation(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-used_cars_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-New_cars_Suite">
+              <span class="suite-name border-skipped">New cars Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-New_cars_Suite">
+                    <span>D:\OnlineTraining\SuryaHYD\Workspace\WebDriver_TestNG_DataDriven\newcars.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-New_cars_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-New_cars_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-New_cars_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-New_cars_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-New_cars_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-New_cars_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,  9 skipped,  5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-New_cars_Suite" class="hide-methods skipped suite-New_cars_Suite"> (hide)</a> <!-- hide-methods skipped suite-New_cars_Suite -->
+                      <a href="#" panel-name="suite-New_cars_Suite" class="show-methods skipped suite-New_cars_Suite"> (show)</a> <!-- show-methods skipped suite-New_cars_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-New_cars_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_cars_Suite" title="com.gktech.newcars.Login" hash-for-method="login(Bandaru, learning123)">login(Bandaru, learning123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_cars_Suite" title="com.gktech.newcars.Login" hash-for-method="login(Bandaru, learning125)">login(Bandaru, learning125)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_cars_Suite" title="com.gktech.newcars.Login" hash-for-method="login(Karnati, testing123)">login(Karnati, testing123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_cars_Suite" title="com.gktech.newcars.Login" hash-for-method="login(Bandaru, learning124)">login(Bandaru, learning124)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_cars_Suite" title="com.gktech.newcars.Login" hash-for-method="login(Bandaru, learning126)">login(Bandaru, learning126)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_cars_Suite" title="com.gktech.newcars.Login" hash-for-method="login(Bandaru, learning127)">login(Bandaru, learning127)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_cars_Suite" title="com.gktech.newcars.Login" hash-for-method="login(Bandaru, learning128)">login(Bandaru, learning128)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_cars_Suite" title="com.gktech.newcars.Registration" hash-for-method="registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_cars_Suite" title="com.gktech.newcars.Registration" hash-for-method="registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-New_cars_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-New_cars_Suite" class="hide-methods passed suite-New_cars_Suite"> (hide)</a> <!-- hide-methods passed suite-New_cars_Suite -->
+                      <a href="#" panel-name="suite-New_cars_Suite" class="show-methods passed suite-New_cars_Suite"> (show)</a> <!-- show-methods passed suite-New_cars_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-New_cars_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_cars_Suite" title="com.gktech.newcars.Login" hash-for-method="login(Naresh, java123)">login(Naresh, java123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_cars_Suite" title="com.gktech.newcars.Login" hash-for-method="login(Govardhan, selenium123)">login(Govardhan, selenium123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_cars_Suite" title="com.gktech.newcars.Registration" hash-for-method="registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_cars_Suite" title="com.gktech.newcars.Registration" hash-for-method="registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_cars_Suite" title="com.gktech.newcars.Registration" hash-for-method="registration(Govardhan, govardhan@gmail.com, 88888888888, selenium123, selenium123)">registration(Govardhan, govardhan@gmail.com, 88888888888, selenium123, selenium123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-New_cars_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-sell_cars_Suite">
+              <span class="suite-name border-failed">sell cars Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-sell_cars_Suite">
+                    <span>D:\OnlineTraining\SuryaHYD\Workspace\WebDriver_TestNG_DataDriven\sellcars.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-sell_cars_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-sell_cars_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-sell_cars_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-sell_cars_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-sell_cars_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-sell_cars_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,  2 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-sell_cars_Suite" class="hide-methods failed suite-sell_cars_Suite"> (hide)</a> <!-- hide-methods failed suite-sell_cars_Suite -->
+                      <a href="#" panel-name="suite-sell_cars_Suite" class="show-methods failed suite-sell_cars_Suite"> (show)</a> <!-- show-methods failed suite-sell_cars_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-sell_cars_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-sell_cars_Suite" title="com.gktech.sellcars.LocateDealer" hash-for-method="locateDealer">locateDealer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-sell_cars_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-sell_cars_Suite" class="hide-methods skipped suite-sell_cars_Suite"> (hide)</a> <!-- hide-methods skipped suite-sell_cars_Suite -->
+                      <a href="#" panel-name="suite-sell_cars_Suite" class="show-methods skipped suite-sell_cars_Suite"> (show)</a> <!-- show-methods skipped suite-sell_cars_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-sell_cars_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-sell_cars_Suite" title="com.gktech.sellcars.SearchCar" hash-for-method="searchCar(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123)">searchCar(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-sell_cars_Suite" title="com.gktech.sellcars.SearchCar" hash-for-method="searchCar(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123)">searchCar(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-sell_cars_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Carwale_Project" class="panel Carwale_Project">
+        </div> <!-- panel Carwale_Project -->
+        <div panel-name="suite-used_cars_Suite" class="panel used_cars_Suite">
+          <div class="suite-used_cars_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.gktech.usedcars.SearchUsedCars</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchUsedCars">
+                  </a> <!-- searchUsedCars -->
+                  <span class="method-name">searchUsedCars</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+The data provider is trying to pass 2 parameters but the method com.gktech.usedcars.SearchUsedCars#searchUsedCars takes 5 and TestNG is unable in inject a suitable object
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 2
+	... 17 more
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-used_cars_Suite-class-failed -->
+          <div class="suite-used_cars_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.gktech.usedcars.UsedCarValuation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="usedCarValuation(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123)">
+                  </a> <!-- usedCarValuation(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123) -->
+                  <span class="method-name">usedCarValuation</span>
+                  <span class="parameters">(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usedCarValuation(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123)">
+                  </a> <!-- usedCarValuation(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123) -->
+                  <span class="method-name">usedCarValuation</span>
+                  <span class="parameters">(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-used_cars_Suite-class-skipped -->
+        </div> <!-- panel used_cars_Suite -->
+        <div panel-name="suite-New_cars_Suite" class="panel New_cars_Suite">
+          <div class="suite-New_cars_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.gktech.newcars.Registration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)">
+                  </a> <!-- registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123) -->
+                  <span class="method-name">registration</span>
+                  <span class="parameters">(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                  <div class="stack-trace">org.testng.SkipException: Runmode of the test data is set as no, so skipping rownumber: 41
+	at com.gktech.newcars.Registration.registration(Registration.java:25)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)">
+                  </a> <!-- registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123) -->
+                  <span class="method-name">registration</span>
+                  <span class="parameters">(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                  <div class="stack-trace">org.testng.SkipException: Runmode of the test data is set as no, so skipping rownumber: 21
+	at com.gktech.newcars.Registration.registration(Registration.java:25)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-New_cars_Suite-class-skipped -->
+          <div class="suite-New_cars_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.gktech.newcars.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(Bandaru, learning123)">
+                  </a> <!-- login(Bandaru, learning123) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(Bandaru, learning123)</span>
+                  <div class="stack-trace">org.testng.SkipException: Runmode of the test data is set as no, so skipping rownumber: 4
+	at com.gktech.newcars.Login.login(Login.java:25)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(Bandaru, learning125)">
+                  </a> <!-- login(Bandaru, learning125) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(Bandaru, learning125)</span>
+                  <div class="stack-trace">org.testng.SkipException: Runmode of the test data is set as no, so skipping rownumber: 6
+	at com.gktech.newcars.Login.login(Login.java:25)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(Karnati, testing123)">
+                  </a> <!-- login(Karnati, testing123) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(Karnati, testing123)</span>
+                  <div class="stack-trace">org.testng.SkipException: Runmode of the test data is set as no, so skipping rownumber: 2
+	at com.gktech.newcars.Login.login(Login.java:25)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(Bandaru, learning124)">
+                  </a> <!-- login(Bandaru, learning124) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(Bandaru, learning124)</span>
+                  <div class="stack-trace">org.testng.SkipException: Runmode of the test data is set as no, so skipping rownumber: 5
+	at com.gktech.newcars.Login.login(Login.java:25)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(Bandaru, learning126)">
+                  </a> <!-- login(Bandaru, learning126) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(Bandaru, learning126)</span>
+                  <div class="stack-trace">org.testng.SkipException: Runmode of the test data is set as no, so skipping rownumber: 7
+	at com.gktech.newcars.Login.login(Login.java:25)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(Bandaru, learning127)">
+                  </a> <!-- login(Bandaru, learning127) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(Bandaru, learning127)</span>
+                  <div class="stack-trace">org.testng.SkipException: Runmode of the test data is set as no, so skipping rownumber: 8
+	at com.gktech.newcars.Login.login(Login.java:25)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(Bandaru, learning128)">
+                  </a> <!-- login(Bandaru, learning128) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(Bandaru, learning128)</span>
+                  <div class="stack-trace">org.testng.SkipException: Runmode of the test data is set as no, so skipping rownumber: 9
+	at com.gktech.newcars.Login.login(Login.java:25)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-New_cars_Suite-class-skipped -->
+          <div class="suite-New_cars_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gktech.newcars.Registration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)">
+                  </a> <!-- registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123) -->
+                  <span class="method-name">registration</span>
+                  <span class="parameters">(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)">
+                  </a> <!-- registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123) -->
+                  <span class="method-name">registration</span>
+                  <span class="parameters">(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration(Govardhan, govardhan@gmail.com, 88888888888, selenium123, selenium123)">
+                  </a> <!-- registration(Govardhan, govardhan@gmail.com, 88888888888, selenium123, selenium123) -->
+                  <span class="method-name">registration</span>
+                  <span class="parameters">(Govardhan, govardhan@gmail.com, 88888888888, selenium123, selenium123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-New_cars_Suite-class-passed -->
+          <div class="suite-New_cars_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gktech.newcars.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(Naresh, java123)">
+                  </a> <!-- login(Naresh, java123) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(Naresh, java123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(Govardhan, selenium123)">
+                  </a> <!-- login(Govardhan, selenium123) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(Govardhan, selenium123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-New_cars_Suite-class-passed -->
+        </div> <!-- panel New_cars_Suite -->
+        <div panel-name="suite-sell_cars_Suite" class="panel sell_cars_Suite">
+          <div class="suite-sell_cars_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.gktech.sellcars.LocateDealer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="locateDealer">
+                  </a> <!-- locateDealer -->
+                  <span class="method-name">locateDealer</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+The data provider is trying to pass 2 parameters but the method com.gktech.sellcars.LocateDealer#locateDealer takes 5 and TestNG is unable in inject a suitable object
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 2
+	... 17 more
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-sell_cars_Suite-class-failed -->
+          <div class="suite-sell_cars_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.gktech.sellcars.SearchCar</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCar(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123)">
+                  </a> <!-- searchCar(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123) -->
+                  <span class="method-name">searchCar</span>
+                  <span class="parameters">(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCar(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123)">
+                  </a> <!-- searchCar(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123) -->
+                  <span class="method-name">searchCar</span>
+                  <span class="parameters">(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-sell_cars_Suite-class-skipped -->
+        </div> <!-- panel sell_cars_Suite -->
+        <div panel-name="test-xml-Carwale_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\OnlineTraining\SuryaHYD\Workspace\WebDriver_TestNG_DataDriven\Suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Carwale Project&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;newcars.xml&quot;/&gt;
+    &lt;suite-file path=&quot;sellcars.xml&quot;/&gt;
+    &lt;suite-file path=&quot;usedcars.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- Carwale Project --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-used_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\OnlineTraining\SuryaHYD\Workspace\WebDriver_TestNG_DataDriven\usedcars.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;used cars Suite&quot;&gt;
+  &lt;test name=&quot;SearchUsedCars&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gktech.usedcars.SearchUsedCars&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SearchUsedCars --&gt;
+  &lt;test name=&quot;UsedCarValuation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gktech.usedcars.UsedCarValuation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UsedCarValuation --&gt;
+&lt;/suite&gt; &lt;!-- used cars Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-New_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\OnlineTraining\SuryaHYD\Workspace\WebDriver_TestNG_DataDriven\newcars.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;New cars Suite&quot;&gt;
+  &lt;test name=&quot;Login&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gktech.newcars.Login&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login --&gt;
+  &lt;test name=&quot;Registration&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gktech.newcars.Registration&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Registration --&gt;
+&lt;/suite&gt; &lt;!-- New cars Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-sell_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\OnlineTraining\SuryaHYD\Workspace\WebDriver_TestNG_DataDriven\sellcars.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;sell cars Suite&quot;&gt;
+  &lt;test name=&quot;LocateDealer&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gktech.sellcars.LocateDealer&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LocateDealer --&gt;
+  &lt;test name=&quot;SearchCar&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gktech.sellcars.SearchCar&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SearchCar --&gt;
+&lt;/suite&gt; &lt;!-- sell cars Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Carwale_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Carwale Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-used_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for used cars Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SearchUsedCars (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UsedCarValuation (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-New_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for New cars Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Registration (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-sell_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for sell cars Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LocateDealer (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SearchCar (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Carwale_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Carwale Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-used_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for used cars Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-New_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for New cars Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-sell_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for sell cars Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Carwale_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Carwale Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Carwale_Project');
+function tableData_Carwale_Project() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Carwale_Project']= { tableData: data, tableDiv: 'times-div-Carwale_Project'}
+return data;
+}
+              </script>
+              <div id="times-div-Carwale_Project">
+              </div> <!-- times-div-Carwale_Project -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-used_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for used cars Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_used_cars_Suite');
+function tableData_used_cars_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchUsedCars')
+data.setCell(0, 2, 'com.gktech.usedcars.SearchUsedCars')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'usedCarValuation')
+data.setCell(1, 2, 'com.gktech.usedcars.UsedCarValuation')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'usedCarValuation')
+data.setCell(2, 2, 'com.gktech.usedcars.UsedCarValuation')
+data.setCell(2, 3, 0);
+window.suiteTableData['used_cars_Suite']= { tableData: data, tableDiv: 'times-div-used_cars_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 ms</span>
+              <div id="times-div-used_cars_Suite">
+              </div> <!-- times-div-used_cars_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-New_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for New cars Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_New_cars_Suite');
+function tableData_New_cars_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'registration')
+data.setCell(0, 2, 'com.gktech.newcars.Registration')
+data.setCell(0, 3, 50105);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'registration')
+data.setCell(1, 2, 'com.gktech.newcars.Registration')
+data.setCell(1, 3, 48313);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'registration')
+data.setCell(2, 2, 'com.gktech.newcars.Registration')
+data.setCell(2, 3, 47262);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'com.gktech.newcars.Login')
+data.setCell(3, 3, 43927);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'login')
+data.setCell(4, 2, 'com.gktech.newcars.Login')
+data.setCell(4, 3, 38943);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'registration')
+data.setCell(5, 2, 'com.gktech.newcars.Registration')
+data.setCell(5, 3, 3);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'login')
+data.setCell(6, 2, 'com.gktech.newcars.Login')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'login')
+data.setCell(7, 2, 'com.gktech.newcars.Login')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'login')
+data.setCell(8, 2, 'com.gktech.newcars.Login')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'login')
+data.setCell(9, 2, 'com.gktech.newcars.Login')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'login')
+data.setCell(10, 2, 'com.gktech.newcars.Login')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'login')
+data.setCell(11, 2, 'com.gktech.newcars.Login')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'login')
+data.setCell(12, 2, 'com.gktech.newcars.Login')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'registration')
+data.setCell(13, 2, 'com.gktech.newcars.Registration')
+data.setCell(13, 3, 0);
+window.suiteTableData['New_cars_Suite']= { tableData: data, tableDiv: 'times-div-New_cars_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-New_cars_Suite">
+              </div> <!-- times-div-New_cars_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-sell_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for sell cars Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_sell_cars_Suite');
+function tableData_sell_cars_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'locateDealer')
+data.setCell(0, 2, 'com.gktech.sellcars.LocateDealer')
+data.setCell(0, 3, 2);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchCar')
+data.setCell(1, 2, 'com.gktech.sellcars.SearchCar')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchCar')
+data.setCell(2, 2, 'com.gktech.sellcars.SearchCar')
+data.setCell(2, 3, 0);
+window.suiteTableData['sell_cars_Suite']= { tableData: data, tableDiv: 'times-div-sell_cars_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 ms</span>
+              <div id="times-div-sell_cars_Suite">
+              </div> <!-- times-div-sell_cars_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Carwale_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Carwale Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-used_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for used cars Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-New_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for New cars Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-sell_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for sell cars Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Carwale_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-used_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-New_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-sell_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Carwale_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.newcars.Registration</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkip</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.newcars.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCaseSkip</span>
+                <span class="method-start">2249 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">login(Govardhan, selenium123)</span>
+                <span class="method-start">2274 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Karnati, testing123)</span>
+                <span class="method-start">46201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Naresh, java123)</span>
+                <span class="method-start">46202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning123)</span>
+                <span class="method-start">85145 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning124)</span>
+                <span class="method-start">85146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning125)</span>
+                <span class="method-start">85146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning126)</span>
+                <span class="method-start">85147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning127)</span>
+                <span class="method-start">85148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning128)</span>
+                <span class="method-start">85148 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.newcars.Registration</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCaseSkip</span>
+                <span class="method-start">85371 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">registration(Govardhan, govardhan@gmail.com, 88888888888, selenium123, selenium123)</span>
+                <span class="method-start">85418 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                <span class="method-start">132680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                <span class="method-start">180993 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                <span class="method-start">180996 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                <span class="method-start">231102 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.sellcars.SearchCar</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkip</span>
+                <span class="method-start">231148 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">searchCar(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123)</span>
+                <span class="method-start">232621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchCar(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123)</span>
+                <span class="method-start">232621 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.usedcars.UsedCarValuation</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkip</span>
+                <span class="method-start">232665 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.usedcars.SearchUsedCars</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCaseSkip</span>
+                <span class="method-start">233391 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.usedcars.UsedCarValuation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCaseSkip</span>
+                <span class="method-start">233506 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">usedCarValuation(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123)</span>
+                <span class="method-start">233538 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">usedCarValuation(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123)</span>
+                <span class="method-start">233539 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-used_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.newcars.Registration</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkip</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.newcars.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCaseSkip</span>
+                <span class="method-start">2249 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">login(Govardhan, selenium123)</span>
+                <span class="method-start">2274 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Karnati, testing123)</span>
+                <span class="method-start">46201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Naresh, java123)</span>
+                <span class="method-start">46202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning123)</span>
+                <span class="method-start">85145 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning124)</span>
+                <span class="method-start">85146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning125)</span>
+                <span class="method-start">85146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning126)</span>
+                <span class="method-start">85147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning127)</span>
+                <span class="method-start">85148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning128)</span>
+                <span class="method-start">85148 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.newcars.Registration</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCaseSkip</span>
+                <span class="method-start">85371 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">registration(Govardhan, govardhan@gmail.com, 88888888888, selenium123, selenium123)</span>
+                <span class="method-start">85418 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                <span class="method-start">132680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                <span class="method-start">180993 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                <span class="method-start">180996 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                <span class="method-start">231102 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.sellcars.SearchCar</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkip</span>
+                <span class="method-start">231148 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">searchCar(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123)</span>
+                <span class="method-start">232621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchCar(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123)</span>
+                <span class="method-start">232621 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.usedcars.UsedCarValuation</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkip</span>
+                <span class="method-start">232665 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.usedcars.SearchUsedCars</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCaseSkip</span>
+                <span class="method-start">233391 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.usedcars.UsedCarValuation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCaseSkip</span>
+                <span class="method-start">233506 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">usedCarValuation(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123)</span>
+                <span class="method-start">233538 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">usedCarValuation(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123)</span>
+                <span class="method-start">233539 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-New_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.newcars.Registration</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkip</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.newcars.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCaseSkip</span>
+                <span class="method-start">2249 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">login(Govardhan, selenium123)</span>
+                <span class="method-start">2274 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Karnati, testing123)</span>
+                <span class="method-start">46201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Naresh, java123)</span>
+                <span class="method-start">46202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning123)</span>
+                <span class="method-start">85145 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning124)</span>
+                <span class="method-start">85146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning125)</span>
+                <span class="method-start">85146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning126)</span>
+                <span class="method-start">85147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning127)</span>
+                <span class="method-start">85148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning128)</span>
+                <span class="method-start">85148 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.newcars.Registration</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCaseSkip</span>
+                <span class="method-start">85371 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">registration(Govardhan, govardhan@gmail.com, 88888888888, selenium123, selenium123)</span>
+                <span class="method-start">85418 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                <span class="method-start">132680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                <span class="method-start">180993 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                <span class="method-start">180996 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                <span class="method-start">231102 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.sellcars.SearchCar</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkip</span>
+                <span class="method-start">231148 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">searchCar(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123)</span>
+                <span class="method-start">232621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchCar(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123)</span>
+                <span class="method-start">232621 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.usedcars.UsedCarValuation</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkip</span>
+                <span class="method-start">232665 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.usedcars.SearchUsedCars</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCaseSkip</span>
+                <span class="method-start">233391 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.usedcars.UsedCarValuation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCaseSkip</span>
+                <span class="method-start">233506 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">usedCarValuation(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123)</span>
+                <span class="method-start">233538 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">usedCarValuation(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123)</span>
+                <span class="method-start">233539 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-sell_cars_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.newcars.Registration</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkip</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.newcars.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCaseSkip</span>
+                <span class="method-start">2249 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">login(Govardhan, selenium123)</span>
+                <span class="method-start">2274 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Karnati, testing123)</span>
+                <span class="method-start">46201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Naresh, java123)</span>
+                <span class="method-start">46202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning123)</span>
+                <span class="method-start">85145 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning124)</span>
+                <span class="method-start">85146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning125)</span>
+                <span class="method-start">85146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning126)</span>
+                <span class="method-start">85147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning127)</span>
+                <span class="method-start">85148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Bandaru, learning128)</span>
+                <span class="method-start">85148 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.newcars.Registration</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCaseSkip</span>
+                <span class="method-start">85371 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">registration(Govardhan, govardhan@gmail.com, 88888888888, selenium123, selenium123)</span>
+                <span class="method-start">85418 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                <span class="method-start">132680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                <span class="method-start">180993 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                <span class="method-start">180996 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registration(Karnati, karnati@gmail.com, 9999999999, testing123, testing123)</span>
+                <span class="method-start">231102 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.sellcars.SearchCar</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkip</span>
+                <span class="method-start">231148 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">searchCar(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123)</span>
+                <span class="method-start">232621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchCar(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123)</span>
+                <span class="method-start">232621 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.usedcars.UsedCarValuation</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkip</span>
+                <span class="method-start">232665 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.usedcars.SearchUsedCars</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCaseSkip</span>
+                <span class="method-start">233391 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gktech.usedcars.UsedCarValuation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCaseSkip</span>
+                <span class="method-start">233506 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">usedCarValuation(Govardhan, govardhan@gmail.com, 8.8888888888E10, selenium123, selenium123)</span>
+                <span class="method-start">233538 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">usedCarValuation(Karnati, karnati@gmail.com, 9.9999999999E10, testing123, testing123)</span>
+                <span class="method-start">233539 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

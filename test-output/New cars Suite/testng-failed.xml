@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [New cars Suite]">
+  <test name="Login(failed)">
+    <classes>
+      <class name="com.gktech.newcars.Registration">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestCaseSkip"/>
+        </methods>
+      </class> <!-- com.gktech.newcars.Registration -->
+      <class name="com.gktech.newcars.Login">
+        <methods>
+          <include name="login" invocation-numbers="1 3 4 5 6 7 8"/>
+          <include name="checkTestCaseSkip"/>
+        </methods>
+      </class> <!-- com.gktech.newcars.Login -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test name="Registration(failed)">
+    <classes>
+      <class name="com.gktech.newcars.Registration">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestCaseSkip"/>
+          <include name="registration" invocation-numbers="2 4"/>
+        </methods>
+      </class> <!-- com.gktech.newcars.Registration -->
+      <class name="com.gktech.newcars.Login">
+        <methods>
+          <include name="checkTestCaseSkip"/>
+        </methods>
+      </class> <!-- com.gktech.newcars.Login -->
+    </classes>
+  </test> <!-- Registration(failed) -->
+</suite> <!-- Failed suite [New cars Suite] -->

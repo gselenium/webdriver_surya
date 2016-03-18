@@ -1,0 +1,13 @@
+<!-- this is my used cars suite -->
+<suite name="used cars Suite">
+	<test name="SearchUsedCars">
+		<classes>
+			<class name="com.gktech.usedcars.SearchUsedCars"></class>
+		</classes>
+	</test>
+	<test name="UsedCarValuation">
+		<classes>
+			<class name="com.gktech.usedcars.UsedCarValuation"></class>
+		</classes>
+	</test>
+</suite>

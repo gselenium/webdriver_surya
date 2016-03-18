@@ -1,0 +1,13 @@
+<!-- this is my new cars suite -->
+<suite name="New cars Suite">
+	<test name="Login">
+		<classes>
+			<class name="com.gktech.newcars.Login"></class>
+		</classes>
+	</test>
+	<test name="Registration">
+		<classes>
+			<class name="com.gktech.newcars.Registration"></class>
+		</classes>
+	</test>
+</suite>
